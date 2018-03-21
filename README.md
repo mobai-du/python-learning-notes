@@ -1,3 +1,12 @@
-# My Awesome Book
+# Python Learning Notes
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Nothing is impossible for a willing heart.\(心之所愿，无所不成\)
+
+          
+
+                                                                            
+
+                             --mobai
+
+
+
