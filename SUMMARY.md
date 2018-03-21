@@ -7,7 +7,7 @@
   * [1.新建.py文件](chapter1/1xin-5efa-py-wen-jian.md)
   * [2.基础语法](chapter1/2ji-chu-yu-fa.md)
 * [二、零基础学Python](er-3001-ling-ji-chu-xue-python.md)
-  * [1.基础](er-3001-ling-ji-chu-xue-python/1ji-chu.md)
+  * [1.函数](er-3001-ling-ji-chu-xue-python/1han-shu.md)
 * 三、笨办法学Python
 * 四、Python精要课程
 
