@@ -32,3 +32,57 @@ set也有继承了一点list的特点:如可以原处修改\(事实上是一种�
 
 
 
+
+
+> &gt;&gt;&gt; s3 = {"facebook",\[1,2,'a'\],{"name":"python","lang":"english"},123}
+>
+> Traceback \(most recent call last\):
+>
+> File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+>
+> TypeError: unhashable type: 'dict'
+>
+> &gt;&gt;&gt; s3 = {"facebook",\[1,2\],123}
+>
+> Traceback \(most recent call last\):
+>
+> File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+>
+> TypeError: unhashable type: 'list'
+
+从上述实验中,可以看出,通过{}无法创建含有list/dict元素的set.
+
+
+
+> &gt;&gt;&gt; s1
+>
+> set\(\['q', 'i', 's', 'r', 'w'\]\)
+>
+> &gt;&gt;&gt; s1\[1\] = "I"
+>
+> Traceback \(most recent call last\):
+>
+> File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+>
+> TypeError: 'set' object does not support item assignment
+>
+> &gt;&gt;&gt; s1
+>
+> set\(\['q', 'i', 's', 'r', 'w'\]\)
+>
+> &gt;&gt;&gt; lst = list\(s1\)
+>
+> &gt;&gt;&gt; lst
+>
+> \['q', 'i', 's', 'r', 'w'\]
+>
+> &gt;&gt;&gt; lst\[1\] = "I"
+>
+> &gt;&gt;&gt; lst
+>
+> \['q', 'I', 's', 'r', 'w'\]
+
+上面的探索中,将set和list做了一个对比,虽然说两者都能够做原处修改,但是,通过索引编号\(偏
+
+移量\)的方式,直接修改,list允许,但是set报错.
+
