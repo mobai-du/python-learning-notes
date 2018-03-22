@@ -98,3 +98,7 @@ Extend the list by appending all the items in the given list; equivalent to a\[l
 
 lb中的所有元素加入到la中，即让la扩容。
 
+区别：append是整建制地追加，extend是个体化扩编。
+
+**3.list中某元素出现的个数**
+
