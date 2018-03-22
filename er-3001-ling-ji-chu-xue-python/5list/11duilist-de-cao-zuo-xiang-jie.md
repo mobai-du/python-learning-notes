@@ -24,7 +24,7 @@ TypeError: insert\(\) takes exactly 2 arguments \(1 given\)
 
 \['python', 'qiwsir', 'github', 'io'\]
 
-&gt;&gt;&gt; all\_users.insert\(1,"\[\[\[\[[http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\)\)\](http://"]%28http://"%29]%28http://"]%28http://"%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29%29%29\)\)
+&gt;&gt;&gt; all\_users.insert\(1,"\[\[\[\[\[[http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\)\)\)\](http://"]%28http://"%29]%28http://"]%28http://"%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29%29%29%29\)\)
 
 &gt;&gt;&gt; all\_users
 
@@ -86,7 +86,5 @@ optional, not that you should type square brackets at that
 
 'github'
 
-
-
-
+1.3range\(start,stop\)生成数字list
 
