@@ -39,7 +39,7 @@ python有一个非常有意思的功能，就是list解析，就是这样的：
 是这样了:
 
 > week=\["monday","sunday","friday"\]
-
+>
 > &gt;&gt;&gt; for i in range\(len\(week\)\):
 >
 > ... print week\[i\]+' is '+str\(i\) \#注意，i是int类型，如果和前面的用+连接，必须是str类型

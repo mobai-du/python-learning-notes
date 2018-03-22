@@ -15,6 +15,7 @@
       * [2.2list解析](er-3001-ling-ji-chu-xue-python/4xun-huan/21forxun-huan/22listjie-xi.md)
   * [5.list](er-3001-ling-ji-chu-xue-python/5list.md)
     * [1.1对list的操作详解](er-3001-ling-ji-chu-xue-python/5list/11duilist-de-cao-zuo-xiang-jie.md)
+  * [6.字典](er-3001-ling-ji-chu-xue-python/6zi-dian.md)
 * [三、笨办法学Python](san-3001-benban-fa-xue-python.md)
 * 四、Python精要课程
 
