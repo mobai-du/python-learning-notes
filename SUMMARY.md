@@ -1,5 +1,6 @@
 # Summary
 
+* [前言](qian-yan.md)
 * [Introduction](README.md)
   * [1.引言](1yin-yan.md)
     * [1.1概述](1yin-yan/11gai-shu.md)
@@ -20,6 +21,7 @@
   * [7.元组](er-3001-ling-ji-chu-xue-python/7yuan-zu.md)
   * [8.对数据类型进行总结](er-3001-ling-ji-chu-xue-python/8dui-shu-ju-lei-xing-jin-xing-zong-jie.md)
   * [9.set](er-3001-ling-ji-chu-xue-python/9set.md)
+    * [1.1更改Set](er-3001-ling-ji-chu-xue-python/9set/11geng-gai-set.md)
 * [三、笨办法学Python](san-3001-benban-fa-xue-python.md)
 * 四、Python精要课程
 
