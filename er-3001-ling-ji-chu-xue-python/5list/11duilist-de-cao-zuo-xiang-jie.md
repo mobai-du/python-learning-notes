@@ -364,3 +364,19 @@ list和str比较 90
 
 \['Albert', 'Ainstain'\]
 
+
+
+&gt;&gt;&gt; s = "I am, writing\npython\tbook on line" \#这个字符串中有空格，逗号，换行\n，tab缩进\t 符号
+
+&gt;&gt;&gt; print s \#输出之后的样式
+
+I am, writing
+
+python book on line
+
+&gt;&gt;&gt; s.split\(\) \#用split\(\),但是括号中不输入任何参数
+
+\['I', 'am,', 'writing', 'python', 'book', 'on', 'line'\]
+
+如果split\(\)不输入任何参数，显示就是见到任何分割符号，就用其分割了。
+
