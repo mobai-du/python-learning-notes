@@ -230,5 +230,93 @@ help\(list\)
 
 方式得到，而要想一次得到多个元素，可以使用切片。偏移量从0开始，总元素数减1结束。
 
+例如：
 
+&gt;&gt;&gt; welcome\_str = "Welcome you"
+
+&gt;&gt;&gt; welcome\_str\[0\]
+
+'W'
+
+&gt;&gt;&gt; welcome\_str\[1\]
+
+'e'
+
+&gt;&gt;&gt; welcome\_str\[len\(welcome\_str\)-1\]
+
+'u'
+
+&gt;&gt;&gt; welcome\_str\[:4\]
+
+'Welc'
+
+&gt;&gt;&gt; a = "python"
+
+&gt;&gt;&gt; a\*3
+
+'pythonpythonpython'
+
+&gt;&gt;&gt; git\_list = \["qiwsir","github","io"\]
+
+&gt;&gt;&gt; git\_list\[0\]
+
+'qiwsir'
+
+&gt;&gt;&gt; git\_list\[len\(git\_list\)-1\]
+
+'io'
+
+&gt;&gt;&gt; git\_list\[0:2\]
+
+\['qiwsir', 'github'\]
+
+&gt;&gt;&gt; b = \['qiwsir'\]
+
+&gt;&gt;&gt; b\*7
+
+\['qiwsir', 'qiwsir', 'qiwsir', 'qiwsir', 'qiwsir', 'qiwsir', 'qiwsir'\]
+
+&gt;&gt;&gt; first = "hello,world"
+
+&gt;&gt;&gt; welcome\_str
+
+'Welcome you'
+
+&gt;&gt;&gt; first+","+welcome\_str \#用+号连接str
+
+'hello,world,Welcome you'
+
+&gt;&gt;&gt; welcome\_str \#原来的str没有受到影响，即上面的+号连接后从新生成了一个字符串
+
+'Welcome you'
+
+&gt;&gt;&gt; first
+
+'hello,world'
+
+&gt;&gt;&gt; language = \['python'\]
+
+&gt;&gt;&gt; git\_list
+
+\['qiwsir', 'github', 'io'\]
+
+&gt;&gt;&gt; language + git\_list \#用+号连接list，得到一个新的list
+
+\['python', 'qiwsir', 'github', 'io'\]
+
+&gt;&gt;&gt; git\_list
+
+\['qiwsir', 'github', 'io'\]
+
+&gt;&gt;&gt; language
+
+\['python'\]
+
+&gt;&gt;&gt; len\(welcome\_str\) \#得到字符数
+
+11
+
+&gt;&gt;&gt; len\(git\_list\) \#得到元素数
+
+3
 
