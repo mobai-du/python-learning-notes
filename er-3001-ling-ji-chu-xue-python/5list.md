@@ -26,7 +26,12 @@
 
 list.append\(\)方法
 
-即将新的元素x追加到list的尾部。
+list.append\(x\)
+
+Add an item to the end of the list; equivalent to a\[len\(a\):\] = \[x\].
+
+即将  
+新的元素x追加到list的尾部。
 
 如：
 
@@ -35,6 +40,4 @@ a=\["abc",a,123\]
 a.append\("def"\)
 
 a\["abc",a,123,def"\]
-
-
 
