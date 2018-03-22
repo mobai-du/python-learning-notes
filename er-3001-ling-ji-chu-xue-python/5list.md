@@ -102,3 +102,7 @@ lb中的所有元素加入到la中，即让la扩容。
 
 **3.list中某元素出现的个数**
 
+list.count\(x\)
+
+Return the number of times x appears in the list.
+
