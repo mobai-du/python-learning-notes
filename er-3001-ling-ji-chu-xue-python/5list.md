@@ -54,7 +54,7 @@ equivalent
 
 &gt;&gt;&gt; a\[len\(a\):\]=\[3\] \#len\(a\),即得到list的长度，这个长度是指list中的元素个数。
 
-&gt;&gt;&gt; a
+> &gt;&gt;&gt; a
 
 \['good', 'python', 'I', 'like', 100, 3\]
 
@@ -73,4 +73,28 @@ equivalent
 list.extend\(L\)
 
 Extend the list by appending all the items in the given list; equivalent to a\[len\(a\):\] = L.
+
+通过将所有元素追加到已知list来扩充它，相当于a\[len\(a\)\]= L
+
+&gt;&gt;&gt; la
+
+\[1, 2, 3\]
+
+&gt;&gt;&gt; lb
+
+\['qiwsir', 'python'\]
+
+&gt;&gt;&gt; la.extend\(lb\)
+
+&gt;&gt;&gt; la
+
+\[1, 2, 3, 'qiwsir', 'python'\]
+
+&gt;&gt;&gt; lb
+
+\['qiwsir', 'python'\]
+
+上面的例子，显示了如何将两个list，一个是la，另外一个lb，将lb追加到la的后面，也就是把
+
+lb中的所有元素加入到la中，即让la扩容。
 
