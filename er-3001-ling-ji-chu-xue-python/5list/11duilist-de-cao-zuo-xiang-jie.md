@@ -276,6 +276,8 @@ help\(list\)
 
 \['qiwsir', 'qiwsir', 'qiwsir', 'qiwsir', 'qiwsir', 'qiwsir', 'qiwsir'\]
 
+对于此类数据，下面一些操作是类似的：
+
 &gt;&gt;&gt; first = "hello,world"
 
 &gt;&gt;&gt; welcome\_str
