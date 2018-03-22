@@ -24,7 +24,7 @@ TypeError: insert\(\) takes exactly 2 arguments \(1 given\)
 
 \['python', 'qiwsir', 'github', 'io'\]
 
-&gt;&gt;&gt; all\_users.insert\(1,"\[[http://"\]\(http://"\)\](http://"]%28http://"%29\)\)
+&gt;&gt;&gt; all\_users.insert\(1,"\[\[[http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\](http://"]%28http://"%29]%28http://"]%28http://"%29%29\)\)
 
 &gt;&gt;&gt; all\_users
 
@@ -47,4 +47,12 @@ list.insert\(i,x\),将新的元素x 插入到原list中的list\[i\]前面
 如果i==len\(list\)，意思是在后面追加，就等同于list.append\(x\)
 
 **1.2删除list中的元素**
+
+list.remove\(x\)
+
+Remove the first item from the list whose value is x. It is an error if there is no such
+
+item.
+
+
 
