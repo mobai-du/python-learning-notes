@@ -6,41 +6,41 @@ str，就不能进行字符的追加。请看官要注意比较，这也是str�
 与list.append\(x\)类似，list.insert\(i,x\)也是对list元素的增加。只不过是可以在任何位置增加一个  
 元素。
 
-&gt;&gt;&gt; all\_users
-
-\['qiwsir', 'github', 'io'\]
-
-&gt;&gt;&gt; all\_users.insert\("python"\) \#list.insert\(i,x\),要求有两个参数，少了就报错
-
-Traceback \(most recent call last\):
-
-File "&lt;stdin&gt;", line 1, in &lt;module&gt;
-
-TypeError: insert\(\) takes exactly 2 arguments \(1 given\)
-
-&gt;&gt;&gt; all\_users.insert\(0,"python"\)
-
-&gt;&gt;&gt; all\_users
-
-\['python', 'qiwsir', 'github', 'io'\]
-
-&gt;&gt;&gt; all\_users.insert\(1,
-
-&gt;&gt;&gt; all\_users
-
-\['python', 'http://', 'qiwsir', 'github', 'io'\]
-
-&gt;&gt;&gt; length = len\(all\_users\)
-
-&gt;&gt;&gt; length
-
-5
-
-&gt;&gt;&gt; all\_users.insert\(length,"algorithm"\)
-
-&gt;&gt;&gt; all\_users
-
-\['python', 'http://', 'qiwsir', 'github', 'io', 'algorithm'\]
+> &gt;&gt;&gt; all\_users
+>
+> \['qiwsir', 'github', 'io'\]
+>
+> &gt;&gt;&gt; all\_users.insert\("python"\) \#list.insert\(i,x\),要求有两个参数，少了就报错
+>
+> Traceback \(most recent call last\):
+>
+> File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+>
+> TypeError: insert\(\) takes exactly 2 arguments \(1 given\)
+>
+> &gt;&gt;&gt; all\_users.insert\(0,"python"\)
+>
+> &gt;&gt;&gt; all\_users
+>
+> \['python', 'qiwsir', 'github', 'io'\]
+>
+> &gt;&gt;&gt; all\_users.insert\(1,
+>
+> &gt;&gt;&gt; all\_users
+>
+> \['python', 'http://', 'qiwsir', 'github', 'io'\]
+>
+> &gt;&gt;&gt; length = len\(all\_users\)
+>
+> &gt;&gt;&gt; length
+>
+> 5
+>
+> &gt;&gt;&gt; all\_users.insert\(length,"algorithm"\)
+>
+> &gt;&gt;&gt; all\_users
+>
+> \['python', 'http://', 'qiwsir', 'github', 'io', 'algorithm'\]
 
 list.insert\(i,x\),将新的元素x 插入到原list中的list\[i\]前面
 
@@ -54,11 +54,11 @@ Remove the first item from the list whose value is x. It is an error if there is
 
 item.
 
-a=\["abc",123,8\]
-
-a.remove\(8\)
-
-a\["abc",123\]
+> a=\["abc",123,8\]
+>
+> a.remove\(8\)
+>
+> a\["abc",123\]
 
 list.pop\(\[i\]\)
 
@@ -70,21 +70,21 @@ brackets around the i in the method signature denote that the parameter is
 
 optional, not that you should type square brackets at that
 
-&gt;&gt;&gt; all\_users
-
-\['qiwsir', 'github', 'io', 'algorithm'\]
-
-&gt;&gt;&gt; all\_users.pop\(\) \#list.pop\(\[i\]\),圆括号里面是\[i\]，表示这个序号是可选的
-
-'algorithm' \#如果不写，就如同这个操作，默认删除最后一个，并且将该结果返回
-
-&gt;&gt;&gt; all\_users
-
-\['qiwsir', 'github', 'io'\]
-
-&gt;&gt;&gt; all\_users.pop\(1\) \#指定删除编号为1的元素"github"
-
-'github'
+> &gt;&gt;&gt; all\_users
+>
+> \['qiwsir', 'github', 'io', 'algorithm'\]
+>
+> &gt;&gt;&gt; all\_users.pop\(\) \#list.pop\(\[i\]\),圆括号里面是\[i\]，表示这个序号是可选的
+>
+> 'algorithm' \#如果不写，就如同这个操作，默认删除最后一个，并且将该结果返回
+>
+> &gt;&gt;&gt; all\_users
+>
+> \['qiwsir', 'github', 'io'\]
+>
+> &gt;&gt;&gt; all\_users.pop\(1\) \#指定删除编号为1的元素"github"
+>
+> 'github'
 
 **1.3range\(start,stop\)生成数字list**
 
@@ -116,25 +116,25 @@ step：变化的步长，默认是1,也就是不写，就是认为步长为1。�
 
 如：
 
-&gt;&gt;&gt; range\(9\) \#stop=9，别的都没有写，含义就是range\(0,9,1\)
-
-\[0, 1, 2, 3, 4, 5, 6, 7, 8\] \#从0开始，步长为1,增加，直到小于9的那个数
-
-&gt;&gt;&gt; range\(0,9\)
-
-\[0, 1, 2, 3, 4, 5, 6, 7, 8\]
-
-&gt;&gt;&gt; range\(0,9,1\)
-
-\[0, 1, 2, 3, 4, 5, 6, 7, 8\]
-
-&gt;&gt;&gt; range\(1,9\) \#start=1
-
-\[1, 2, 3, 4, 5, 6, 7, 8\]
-
-&gt;&gt;&gt; range\(0,9,2\)
-
-\[0, 2, 4, 6, 8\]
+> &gt;&gt;&gt; range\(9\) \#stop=9，别的都没有写，含义就是range\(0,9,1\)
+>
+> \[0, 1, 2, 3, 4, 5, 6, 7, 8\] \#从0开始，步长为1,增加，直到小于9的那个数
+>
+> &gt;&gt;&gt; range\(0,9\)
+>
+> \[0, 1, 2, 3, 4, 5, 6, 7, 8\]
+>
+> &gt;&gt;&gt; range\(0,9,1\)
+>
+> \[0, 1, 2, 3, 4, 5, 6, 7, 8\]
+>
+> &gt;&gt;&gt; range\(1,9\) \#start=1
+>
+> \[1, 2, 3, 4, 5, 6, 7, 8\]
+>
+> &gt;&gt;&gt; range\(0,9,2\)
+>
+> \[0, 2, 4, 6, 8\]
 
 解释一下range\(0,9,2\)
 
@@ -158,67 +158,67 @@ list，但是不能一个一个用手指头来数。怎么办？
 
 请沉思两分钟之后，自己实验一下，然后看下面。
 
-&gt;&gt;&gt; pythoner
-
-\['I', 'am', 'a', 'pythoner', 'I', 'am', 'learning', 'it', 'with', 'qiwsir'\]
-
-&gt;&gt;&gt; py\_index = range\(len\(pythoner\)\) \#以len\(pythoner\)为stop的值
-
-&gt;&gt;&gt; py\_index
-
-\[0, 1, 2, 3, 4, 5, 6, 7, 8, 9\]
+> &gt;&gt;&gt; pythoner
+>
+> \['I', 'am', 'a', 'pythoner', 'I', 'am', 'learning', 'it', 'with', 'qiwsir'\]
+>
+> &gt;&gt;&gt; py\_index = range\(len\(pythoner\)\) \#以len\(pythoner\)为stop的值
+>
+> &gt;&gt;&gt; py\_index
+>
+> \[0, 1, 2, 3, 4, 5, 6, 7, 8, 9\]
 
 再用手指头指着pythoner里面的元素，数一数，是不是跟结果一样。
 
 **1.4list排序**
 
-list.sort\(cmp=None, key=None, reverse=False\)
-
-sorted\(iterable\[, cmp\[, key\[, reverse\]\]\]\)
-
-&gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
-
-&gt;&gt;&gt; number.sort\(\)
-
-&gt;&gt;&gt; number
-
-\[1, 2, 3, 4, 6, 7, 9\]
-
-&gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
-
-&gt;&gt;&gt; number
-
-\[1, 4, 6, 2, 9, 7, 3\]
-
-&gt;&gt;&gt; sorted\(number\)
-
-\[1, 2, 3, 4, 6, 7, 9\]
-
-&gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
-
-&gt;&gt;&gt; number
-
-\[1, 4, 6, 2, 9, 7, 3\]
-
-&gt;&gt;&gt; number.sort\(reverse=True\) \#开始实现倒序
-
-&gt;&gt;&gt; number
-
-\[9, 7, 6, 4, 3, 2, 1\]
-
-&gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
-
-&gt;&gt;&gt; number
-
-\[1, 4, 6, 2, 9, 7, 3\]
-
-&gt;&gt;&gt; sorted\(number,reverse=True\)
-
-\[9, 7, 6, 4, 3, 2, 1\]
+> list.sort\(cmp=None, key=None, reverse=False\)
+>
+> sorted\(iterable\[, cmp\[, key\[, reverse\]\]\]\)
+>
+> &gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
+>
+> &gt;&gt;&gt; number.sort\(\)
+>
+> &gt;&gt;&gt; number
+>
+> \[1, 2, 3, 4, 6, 7, 9\]
+>
+> &gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
+>
+> &gt;&gt;&gt; number
+>
+> \[1, 4, 6, 2, 9, 7, 3\]
+>
+> &gt;&gt;&gt; sorted\(number\)
+>
+> \[1, 2, 3, 4, 6, 7, 9\]
+>
+> &gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
+>
+> &gt;&gt;&gt; number
+>
+> \[1, 4, 6, 2, 9, 7, 3\]
+>
+> &gt;&gt;&gt; number.sort\(reverse=True\) \#开始实现倒序
+>
+> &gt;&gt;&gt; number
+>
+> \[9, 7, 6, 4, 3, 2, 1\]
+>
+> &gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
+>
+> &gt;&gt;&gt; number
+>
+> \[1, 4, 6, 2, 9, 7, 3\]
+>
+> &gt;&gt;&gt; sorted\(number,reverse=True\)
+>
+> \[9, 7, 6, 4, 3, 2, 1\]
 
 **1.5查找list方法**
 
-help\(list\)
+> help\(list\)
 
 **1.6list和str比较**
 
@@ -232,95 +232,95 @@ help\(list\)
 
 例如：
 
-&gt;&gt;&gt; welcome\_str = "Welcome you"
-
-&gt;&gt;&gt; welcome\_str\[0\]
-
-'W'
-
-&gt;&gt;&gt; welcome\_str\[1\]
-
-'e'
-
-&gt;&gt;&gt; welcome\_str\[len\(welcome\_str\)-1\]
-
-'u'
-
-&gt;&gt;&gt; welcome\_str\[:4\]
-
-'Welc'
-
-&gt;&gt;&gt; a = "python"
-
-&gt;&gt;&gt; a\*3
-
-'pythonpythonpython'
-
-&gt;&gt;&gt; git\_list = \["qiwsir","github","io"\]
-
-&gt;&gt;&gt; git\_list\[0\]
-
-'qiwsir'
-
-&gt;&gt;&gt; git\_list\[len\(git\_list\)-1\]
-
-'io'
-
-&gt;&gt;&gt; git\_list\[0:2\]
-
-\['qiwsir', 'github'\]
-
-&gt;&gt;&gt; b = \['qiwsir'\]
-
-&gt;&gt;&gt; b\*7
-
-\['qiwsir', 'qiwsir', 'qiwsir', 'qiwsir', 'qiwsir', 'qiwsir', 'qiwsir'\]
+> &gt;&gt;&gt; welcome\_str = "Welcome you"
+>
+> &gt;&gt;&gt; welcome\_str\[0\]
+>
+> 'W'
+>
+> &gt;&gt;&gt; welcome\_str\[1\]
+>
+> 'e'
+>
+> &gt;&gt;&gt; welcome\_str\[len\(welcome\_str\)-1\]
+>
+> 'u'
+>
+> &gt;&gt;&gt; welcome\_str\[:4\]
+>
+> 'Welc'
+>
+> &gt;&gt;&gt; a = "python"
+>
+> &gt;&gt;&gt; a\*3
+>
+> 'pythonpythonpython'
+>
+> &gt;&gt;&gt; git\_list = \["qiwsir","github","io"\]
+>
+> &gt;&gt;&gt; git\_list\[0\]
+>
+> 'qiwsir'
+>
+> &gt;&gt;&gt; git\_list\[len\(git\_list\)-1\]
+>
+> 'io'
+>
+> &gt;&gt;&gt; git\_list\[0:2\]
+>
+> \['qiwsir', 'github'\]
+>
+> &gt;&gt;&gt; b = \['qiwsir'\]
+>
+> &gt;&gt;&gt; b\*7
+>
+> \['qiwsir', 'qiwsir', 'qiwsir', 'qiwsir', 'qiwsir', 'qiwsir', 'qiwsir'\]
 
 对于此类数据，下面一些操作是类似的：
 
-&gt;&gt;&gt; first = "hello,world"
-
-&gt;&gt;&gt; welcome\_str
-
-'Welcome you'
-
-&gt;&gt;&gt; first+","+welcome\_str \#用+号连接str
-
-'hello,world,Welcome you'
-
-&gt;&gt;&gt; welcome\_str \#原来的str没有受到影响，即上面的+号连接后从新生成了一个字符串
-
-'Welcome you'
-
-&gt;&gt;&gt; first
-
-'hello,world'
-
-&gt;&gt;&gt; language = \['python'\]
-
-&gt;&gt;&gt; git\_list
-
-\['qiwsir', 'github', 'io'\]
-
-&gt;&gt;&gt; language + git\_list \#用+号连接list，得到一个新的list
-
-\['python', 'qiwsir', 'github', 'io'\]
-
-&gt;&gt;&gt; git\_list
-
-\['qiwsir', 'github', 'io'\]
-
-&gt;&gt;&gt; language
-
-\['python'\]
-
-&gt;&gt;&gt; len\(welcome\_str\) \#得到字符数
-
-11
-
-&gt;&gt;&gt; len\(git\_list\) \#得到元素数
-
-3
+> &gt;&gt;&gt; first = "hello,world"
+>
+> &gt;&gt;&gt; welcome\_str
+>
+> 'Welcome you'
+>
+> &gt;&gt;&gt; first+","+welcome\_str \#用+号连接str
+>
+> 'hello,world,Welcome you'
+>
+> &gt;&gt;&gt; welcome\_str \#原来的str没有受到影响，即上面的+号连接后从新生成了一个字符串
+>
+> 'Welcome you'
+>
+> &gt;&gt;&gt; first
+>
+> 'hello,world'
+>
+> &gt;&gt;&gt; language = \['python'\]
+>
+> &gt;&gt;&gt; git\_list
+>
+> \['qiwsir', 'github', 'io'\]
+>
+> &gt;&gt;&gt; language + git\_list \#用+号连接list，得到一个新的list
+>
+> \['python', 'qiwsir', 'github', 'io'\]
+>
+> &gt;&gt;&gt; git\_list
+>
+> \['qiwsir', 'github', 'io'\]
+>
+> &gt;&gt;&gt; language
+>
+> \['python'\]
+>
+> &gt;&gt;&gt; len\(welcome\_str\) \#得到字符数
+>
+> 11
+>
+> &gt;&gt;&gt; len\(git\_list\) \#得到元素数
+>
+> 3
 
 区别：
 
@@ -328,55 +328,79 @@ list和str的最大区别是：list是可以改变的，str不可变。这个怎
 
 如果要修改一个str，不得不这样。
 
-零基础学Python
 
-list和str比较 90
 
-&gt;&gt;&gt; welcome\_str
-
-'Welcome you'
-
-&gt;&gt;&gt; welcome\_str\[0\]+"E"+welcome\_str\[2:\] \#从新生成一个str
-
-'WElcome you'
-
-&gt;&gt;&gt; welcome\_str \#对原来的没有任何影响
-
-'Welcome you'
+> &gt;&gt;&gt; welcome\_str
+>
+> 'Welcome you'
+>
+> &gt;&gt;&gt; welcome\_str\[0\]+"E"+welcome\_str\[2:\] \#从新生成一个str
+>
+> 'WElcome you'
+>
+> &gt;&gt;&gt; welcome\_str \#对原来的没有任何影响
+>
+> 'Welcome you'
 
 其实，在这种做法中，相当于从新生成了一个str。
 
 **1.7list与str的转化**
 
-&gt;&gt;&gt; line = "Hello.I am qiwsir.Welcome you."
+str.split\(\)
 
-&gt;&gt;&gt; line.split\("."\) \#以英文的句点为分隔符，得到list
+这个内置函数实现的是将str转化为list。其中str=""是分隔符。
 
-\['Hello', 'I am qiwsir', 'Welcome you', ''\]
-
-&gt;&gt;&gt; line.split\(".",1\) \#这个1,就是表达了上文中的：If maxsplit is given, at most maxsplit splits are done.
-
-\['Hello', 'I am qiwsir.Welcome you.'\]
-
-&gt;&gt;&gt; name = "Albert Ainstain" \#也有可能用空格来做为分隔符
-
-&gt;&gt;&gt; name.split\(" "\)
-
-\['Albert', 'Ainstain'\]
-
-
-
-&gt;&gt;&gt; s = "I am, writing\npython\tbook on line" \#这个字符串中有空格，逗号，换行\n，tab缩进\t 符号
-
-&gt;&gt;&gt; print s \#输出之后的样式
-
-I am, writing
-
-python book on line
-
-&gt;&gt;&gt; s.split\(\) \#用split\(\),但是括号中不输入任何参数
-
-\['I', 'am,', 'writing', 'python', 'book', 'on', 'line'\]
+> &gt;&gt;&gt; line = "Hello.I am qiwsir.Welcome you."
+>
+> &gt;&gt;&gt; line.split\("."\) \#以英文的句点为分隔符，得到list
+>
+> \['Hello', 'I am qiwsir', 'Welcome you', ''\]
+>
+> &gt;&gt;&gt; line.split\(".",1\) \#这个1,就是表达了上文中的：If maxsplit is given, at most maxsplit splits are done.
+>
+> \['Hello', 'I am qiwsir.Welcome you.'\]
+>
+> &gt;&gt;&gt; name = "Albert Ainstain" \#也有可能用空格来做为分隔符
+>
+> &gt;&gt;&gt; name.split\(" "\)
+>
+> \['Albert', 'Ainstain'\]
+>
+> &gt;&gt;&gt; s = "I am, writing\npython\tbook on line" \#这个字符串中有空格，逗号，换行\n，tab缩进\t 符号
+>
+> &gt;&gt;&gt; print s \#输出之后的样式
+>
+> I am, writing
+>
+> python book on line
+>
+> &gt;&gt;&gt; s.split\(\) \#用split\(\),但是括号中不输入任何参数
+>
+> \['I', 'am,', 'writing', 'python', 'book', 'on', 'line'\]
 
 如果split\(\)不输入任何参数，显示就是见到任何分割符号，就用其分割了。
+
+
+
+"\[sep\]".join\(list\)
+
+> join可以说是split的逆运算，举例：
+>
+> &gt;&gt;&gt; name
+>
+> \['Albert', 'Ainstain'\]
+>
+> &gt;&gt;&gt; "".join\(name\) \#将list中的元素连接起来，但是没有连接符，表示一个一个紧邻着
+>
+> 'AlbertAinstain'
+>
+> &gt;&gt;&gt; ".".join\(name\) \#以英文的句点做为连接分隔符
+>
+> 'Albert.Ainstain'
+>
+> &gt;&gt;&gt; " ".join\(name\) \#以空格做为连接的分隔符
+>
+> 'Albert Ainstain'
+
+
 
