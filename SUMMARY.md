@@ -16,6 +16,10 @@
   * [5.list](er-3001-ling-ji-chu-xue-python/5list.md)
     * [1.1对list的操作详解](er-3001-ling-ji-chu-xue-python/5list/11duilist-de-cao-zuo-xiang-jie.md)
   * [6.字典](er-3001-ling-ji-chu-xue-python/6zi-dian.md)
+    * [1.1dict的方法](er-3001-ling-ji-chu-xue-python/6zi-dian/11dictde-fang-fa.md)
+  * [7.元组](er-3001-ling-ji-chu-xue-python/7yuan-zu.md)
+  * [8.对数据类型进行总结](er-3001-ling-ji-chu-xue-python/8dui-shu-ju-lei-xing-jin-xing-zong-jie.md)
+  * [9.set](er-3001-ling-ji-chu-xue-python/9set.md)
 * [三、笨办法学Python](san-3001-benban-fa-xue-python.md)
 * 四、Python精要课程
 

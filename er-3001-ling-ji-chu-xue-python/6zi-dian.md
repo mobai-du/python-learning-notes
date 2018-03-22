@@ -70,3 +70,53 @@ dict也被称为关联数组或哈希表。
 
 需要提醒的是，这种方法是从新建立一个dict。
 
+2.访问
+
+因为dict是以键值对的形式存储数据的，所以，只要知道键，就能得到值。这本质上就是一种
+
+映射关系。
+
+> &gt;&gt;&gt; person
+>
+> {'name2': 'qiwsir', 'name': 'qiwsir', 'language': 'python', 'site': 'qiwsir.github.io'}
+>
+> &gt;&gt;&gt; person\['name'\]
+>
+> 'qiwsir'
+>
+> &gt;&gt;&gt; person\['language'\]
+>
+> 'python'
+>
+> &gt;&gt;&gt; site = person\['site'\]
+>
+> &gt;&gt;&gt; print site
+>
+> qiwsir.github.io
+
+for循环
+
+> &gt;&gt;&gt; person\_list = \["qiwsir","Newton","Boolean"\]
+>
+> &gt;&gt;&gt; for name in person\_list:
+>
+> ... print name
+>
+> ...
+>
+> qiwsir
+>
+> Newton
+>
+> Boolean
+
+哈希表：
+
+散列表（Hash table，也叫哈希表），是根据关键字（Key value）而直接访问在内存存
+
+储位置的数据结构。也就是说，它通过把键值通过一个函数的计算，映射到表中一个位
+
+置来访问记录，这加快了查找速度。这个映射函数称做散列函数，存放记录的数组称做
+
+散列表。
+
