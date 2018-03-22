@@ -150,10 +150,6 @@ range\(9,2\)的样子，计算机就有点糊涂了，它会认为start=9,stop=2
 
 是从0开始的），第n个值就是start+\(n-1\)step。直到小于stop前的那个值。
 
-
-
-
-
 思考一个问题，现在有一个列表，比如是
 
 \["I","am","a","pythoner","I","am","learning","it","with","qiwsir"\],要得到这个list的所有序号组成的
@@ -173,4 +169,10 @@ list，但是不能一个一个用手指头来数。怎么办？
 \[0, 1, 2, 3, 4, 5, 6, 7, 8, 9\]
 
 再用手指头指着pythoner里面的元素，数一数，是不是跟结果一样。
+
+**1.4list排序**
+
+list.sort\(cmp=None, key=None, reverse=False\)
+
+sorted\(iterable\[, cmp\[, key\[, reverse\]\]\]\)
 
