@@ -24,7 +24,7 @@ TypeError: insert\(\) takes exactly 2 arguments \(1 given\)
 
 \['python', 'qiwsir', 'github', 'io'\]
 
-&gt;&gt;&gt; all\_users.insert\(1,"\[\[\[[http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\)\](http://"]%28http://"%29]%28http://"]%28http://"%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29%29\)\)
+&gt;&gt;&gt; all\_users.insert\(1,"\[\[\[\[[http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\]\(http://"\]\(http://"\)\]\(http://"\]\(http://"\)\)\)\)\](http://"]%28http://"%29]%28http://"]%28http://"%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29]%28http://"]%28http://"%29]%28http://"]%28http://"%29%29%29%29\)\)
 
 &gt;&gt;&gt; all\_users
 
@@ -54,6 +54,12 @@ Remove the first item from the list whose value is x. It is an error if there is
 
 item.
 
+a=\["abc",123,8\]
+
+a.remove\(8\)
+
+a\["abc",123\]
+
 list.pop\(\[i\]\)
 
 Remove the item at the given position in the list, and return it. If no index is
@@ -63,4 +69,24 @@ specified, a.pop\(\) removes and returns the last item in the list. \(The square
 brackets around the i in the method signature denote that the parameter is
 
 optional, not that you should type square brackets at that
+
+&gt;&gt;&gt; all\_users
+
+\['qiwsir', 'github', 'io', 'algorithm'\]
+
+&gt;&gt;&gt; all\_users.pop\(\) \#list.pop\(\[i\]\),圆括号里面是\[i\]，表示这个序号是可选的
+
+'algorithm' \#如果不写，就如同这个操作，默认删除最后一个，并且将该结果返回
+
+&gt;&gt;&gt; all\_users
+
+\['qiwsir', 'github', 'io'\]
+
+&gt;&gt;&gt; all\_users.pop\(1\) \#指定删除编号为1的元素"github"
+
+'github'
+
+
+
+
 
