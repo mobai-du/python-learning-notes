@@ -112,5 +112,9 @@ Return the number of times x appears in the list.
 
 &gt;&gt;&gt; la.count\(1\)
 
-3
+**4.list元素中的位置**
+
+list.index\(x\)，x是list中的一个元素，这样就能够检索到该元素在list中的位置了。这才是真正
+
+的索引，注意那个英文单词index。
 

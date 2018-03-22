@@ -12,6 +12,7 @@
   * [3.运算符](er-3001-ling-ji-chu-xue-python/3yun-suan-fu.md)
   * [4.循环](er-3001-ling-ji-chu-xue-python/4xun-huan.md)
   * [5.list](er-3001-ling-ji-chu-xue-python/5list.md)
+    * [1.1对list的操作详解](er-3001-ling-ji-chu-xue-python/5list/11duilist-de-cao-zuo-xiang-jie.md)
 * [三、笨办法学Python](san-3001-benban-fa-xue-python.md)
 * 四、Python精要课程
 
