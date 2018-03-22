@@ -41,3 +41,7 @@ a.append\("def"\)
 
 a\["abc",a,123,def"\]
 
+equivalent to a\[len\(a\):\] = \[x\]，意思是说list.append\(x\)等效于：a\[len\(a\):\]=\[x\]。这也相当于告诉我们了另外
+
+一种追加元素的方法，并且两种方法等效。
+
