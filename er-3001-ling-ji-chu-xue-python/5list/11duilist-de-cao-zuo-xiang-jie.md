@@ -346,5 +346,21 @@ list和str比较 90
 
 其实，在这种做法中，相当于从新生成了一个str。
 
-1.7list与str的转化
+**1.7list与str的转化**
+
+&gt;&gt;&gt; line = "Hello.I am qiwsir.Welcome you."
+
+&gt;&gt;&gt; line.split\("."\) \#以英文的句点为分隔符，得到list
+
+\['Hello', 'I am qiwsir', 'Welcome you', ''\]
+
+&gt;&gt;&gt; line.split\(".",1\) \#这个1,就是表达了上文中的：If maxsplit is given, at most maxsplit splits are done.
+
+\['Hello', 'I am qiwsir.Welcome you.'\]
+
+&gt;&gt;&gt; name = "Albert Ainstain" \#也有可能用空格来做为分隔符
+
+&gt;&gt;&gt; name.split\(" "\)
+
+\['Albert', 'Ainstain'\]
 
