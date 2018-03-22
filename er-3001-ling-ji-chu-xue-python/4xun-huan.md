@@ -30,7 +30,13 @@ File "&lt;stdin&gt;", line 2
 
 print "I like python"
 
+^
 
+**IndentationError: expected an indented block**
 
-IndentationError: expected an indented block
+意思就是说需要一个缩进块。也就是我没有对第二行进行缩进，需要缩进。
+
+另外，顺便还要提醒，&gt;&gt;&gt;表示后面可以输入指令，...表示当前指令没有结束。要结束并执
+
+行，需要敲击两次回车键。
 
