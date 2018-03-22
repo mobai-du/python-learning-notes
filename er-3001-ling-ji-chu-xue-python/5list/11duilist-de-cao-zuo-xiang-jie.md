@@ -326,3 +326,25 @@ help\(list\)
 
 list和str的最大区别是：list是可以改变的，str不可变。这个怎么理解呢
 
+如果要修改一个str，不得不这样。
+
+零基础学Python
+
+list和str比较 90
+
+&gt;&gt;&gt; welcome\_str
+
+'Welcome you'
+
+&gt;&gt;&gt; welcome\_str\[0\]+"E"+welcome\_str\[2:\] \#从新生成一个str
+
+'WElcome you'
+
+&gt;&gt;&gt; welcome\_str \#对原来的没有任何影响
+
+'Welcome you'
+
+其实，在这种做法中，相当于从新生成了一个str。
+
+1.7list与str的转化
+
