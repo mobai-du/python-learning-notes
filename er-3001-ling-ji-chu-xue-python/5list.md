@@ -22,7 +22,7 @@
 
 **2.对list的操作**
 
-2.1追加元素
+**2.1追加元素**
 
 list.append\(\)方法
 
@@ -67,4 +67,6 @@ equivalent
 &gt;&gt;&gt; a
 
 \['good', 'python', 'I', 'like', 100, 3, 'xxoo'\]
+
+**2.2合并list**
 
