@@ -22,17 +22,17 @@ else:
 
 **2.if报错**
 
-&gt;&gt;&gt; if bool\(a\):
-
-... print "I like python"
-
-File "&lt;stdin&gt;", line 2
-
-print "I like python"
-
-^
-
-**IndentationError: expected an indented block**
+> &gt;&gt;&gt; if bool\(a\):
+>
+> ... print "I like python"
+>
+> File "&lt;stdin&gt;", line 2
+>
+> print "I like python"
+>
+> ^
+>
+> **IndentationError: expected an indented block**
 
 意思就是说需要一个缩进块。也就是我没有对第二行进行缩进，需要缩进。
 

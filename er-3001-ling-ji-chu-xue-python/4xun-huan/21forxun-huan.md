@@ -1,0 +1,54 @@
+1.简例
+
+如果要让打印的在一行，可以用下面的方法，在打印的后面加一个逗号（英文）
+
+> &gt;&gt;&gt; for i in hello:
+>
+> ... print i,
+>
+> ...
+>
+> w o r l d
+>
+> &gt;&gt;&gt; for i in hello:
+>
+> ... print i+",", \#为了美观，可以在每个字符后面加一个逗号分割
+>
+> ...
+>
+> w, o, r, l, d,
+>
+> &gt;&gt;&gt;
+
+偏移量
+
+> &gt;&gt;&gt; for i in range\(len\(hello\)\):
+>
+> ... print hello\[i\]
+>
+> ...
+>
+> w
+>
+> o
+>
+> r
+>
+> l
+>
+> d
+
+其工作方式是：
+
+1. len\(hello\)得到hello引用的字符串的长度，为5
+
+2. range\(len\(hello\),就是range\(5\),也就是\[0, 1, 2, 3, 4\],对应这"world"每个字母的编号，即偏
+
+移量。
+
+3. for i in range\(len\(hello\)\),就相当于for i in \[0,1,2,3,4\],让i依次等于list中的各个值。当i=0
+
+时，打印hello\[0\]，也就是第一个字符。然后顺序循环下去，直到最后一个i=4为止。
+
+
+

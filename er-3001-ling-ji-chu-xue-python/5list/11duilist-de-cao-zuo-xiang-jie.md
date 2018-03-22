@@ -328,8 +328,6 @@ list和str的最大区别是：list是可以改变的，str不可变。这个怎
 
 如果要修改一个str，不得不这样。
 
-
-
 > &gt;&gt;&gt; welcome\_str
 >
 > 'Welcome you'
@@ -379,8 +377,6 @@ str.split\(\)
 > \['I', 'am,', 'writing', 'python', 'book', 'on', 'line'\]
 
 如果split\(\)不输入任何参数，显示就是见到任何分割符号，就用其分割了。
-
-
 
 "\[sep\]".join\(list\)
 
