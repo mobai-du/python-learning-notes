@@ -176,3 +176,45 @@ list.sort\(cmp=None, key=None, reverse=False\)
 
 sorted\(iterable\[, cmp\[, key\[, reverse\]\]\]\)
 
+
+
+&gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
+
+&gt;&gt;&gt; number.sort\(\)
+
+&gt;&gt;&gt; number
+
+\[1, 2, 3, 4, 6, 7, 9\]
+
+&gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
+
+&gt;&gt;&gt; number
+
+\[1, 4, 6, 2, 9, 7, 3\]
+
+&gt;&gt;&gt; sorted\(number\)
+
+\[1, 2, 3, 4, 6, 7, 9\]
+
+&gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
+
+&gt;&gt;&gt; number
+
+\[1, 4, 6, 2, 9, 7, 3\]
+
+&gt;&gt;&gt; number.sort\(reverse=True\) \#开始实现倒序
+
+&gt;&gt;&gt; number
+
+\[9, 7, 6, 4, 3, 2, 1\]
+
+&gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
+
+&gt;&gt;&gt; number
+
+\[1, 4, 6, 2, 9, 7, 3\]
+
+&gt;&gt;&gt; sorted\(number,reverse=True\)
+
+\[9, 7, 6, 4, 3, 2, 1\]
+
