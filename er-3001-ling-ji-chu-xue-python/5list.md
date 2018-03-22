@@ -106,6 +106,8 @@ list.count\(x\)
 
 Return the number of times x appears in the list.
 
+统计元素中出现的个数
+
 &gt;&gt;&gt; la = \[1,2,1,1,3\]
 
 &gt;&gt;&gt; la.count\(1\)
