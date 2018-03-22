@@ -10,6 +10,6 @@
   * [1.函数](er-3001-ling-ji-chu-xue-python/1han-shu.md)
   * [2.数据类型](er-3001-ling-ji-chu-xue-python/2shu-ju-lei-xing.md)
   * [3.运算符](er-3001-ling-ji-chu-xue-python/3yun-suan-fu.md)
-* 三、笨办法学Python
+* [三、笨办法学Python](san-3001-benban-fa-xue-python.md)
 * 四、Python精要课程
 

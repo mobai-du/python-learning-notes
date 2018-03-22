@@ -22,3 +22,25 @@
 
 学科。在数学里，逻辑是指研究某个形式语言的有效推论。
 
+3.布尔运算：
+
+布尔代数中的True和Flase与计算机中的返回值1和0对应。即True\(1\),Flase\(0\)
+
+（假设变量a为10，变量b为20）
+
+| 运算符 | 描述 | 实例 |
+| :---: | :---: | :---: |
+| and | 布尔“与”--如果X为Flase,X and Y返回Flase,否则它返回Y的计算值 | （a and b）返回值True |
+| or | 布尔“或”--如果X是True,它返回True,否则它返回Y的计算值。 | \(a or b\)返回True |
+| not | 布尔“非”--如果X为True,返回False。如果X为Flase,返回True | not\(a and b\)返回False |
+
+and:
+
+and，翻译为“与”运算，但事实上，这种翻译容易引起望文生义的理解。先说一下正确的理
+
+解。A and B，含义是：首先运算A，如果A的值是true，就计算B，并将B的结果返回做为最终
+
+结果，如果B是False，那么A and B的最终结果就是False,如果B的结果是True，那么A and B
+
+的结果就是True；如果A的值是False ,就不计算B了，直接返回A and B的结果为False.
+
