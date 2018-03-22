@@ -176,8 +176,6 @@ list.sort\(cmp=None, key=None, reverse=False\)
 
 sorted\(iterable\[, cmp\[, key\[, reverse\]\]\]\)
 
-
-
 &gt;&gt;&gt; number = \[1,4,6,2,9,7,3\]
 
 &gt;&gt;&gt; number.sort\(\)
@@ -217,4 +215,6 @@ sorted\(iterable\[, cmp\[, key\[, reverse\]\]\]\)
 &gt;&gt;&gt; sorted\(number,reverse=True\)
 
 \[9, 7, 6, 4, 3, 2, 1\]
+
+**1.5查找list方法**
 
